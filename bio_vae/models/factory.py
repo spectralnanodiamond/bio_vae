@@ -94,7 +94,7 @@ class ModelFactory:
             decoder_class=lambda x: None,
         )
         
-    def resnet18_vae_legacy(self):
+#    def resnet18_vae_legacy(self):
 
 
     def resnet_vqvae_legacy(self, depth):
@@ -132,7 +132,7 @@ MODELS = [
     "resnet11_vqvae_legacy",
     "resnet150_vqvae_legacy",
     "resnet152_vqvae_legacy",
-    "resnet18_vae_legacy", 
+#    "resnet18_vae_legacy", 
 ]
 
 
